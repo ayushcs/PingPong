@@ -39,6 +39,11 @@ body {
   font-size: 16px;
 }
 
+.error {
+  margin-top: 30px;
+  font-size: 40px;
+}
+
 .gameController button:disabled {
   opacity: 0.5;
   cursor: not-allowed;

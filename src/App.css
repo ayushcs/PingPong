@@ -1,0 +1,49 @@
+.gameCanvas {
+  border: 1px solid black;
+  margin-top: 16px;
+  background-image: radial-gradient(
+    circle 759px at -6.7% 50%,
+    rgba(80, 131, 73, 1) 0%,
+    rgba(140, 209, 131, 1) 26.2%,
+    rgba(178, 231, 170, 1) 50.6%,
+    rgba(144, 213, 135, 1) 74.1%,
+    rgba(75, 118, 69, 1) 100.3%
+  );
+  color: red;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.gameCanvasParent,
+.gameController,
+.Note {
+  display: flex;
+  justify-content: center;
+}
+
+.gameController button {
+  margin: 16px;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.gameController button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.Note {
+  color: wheat;
+}

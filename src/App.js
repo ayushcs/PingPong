@@ -317,6 +317,9 @@ function App(props) {
         <b>Player 1: Up = W, Down = S, </b>
         <b>Player 2: Up = Up Arrow Key, Down = Down Arrow Key</b>
       </pre>
+      <pre className="Note">
+        <b>One who wins 3 round first Wins!!</b>
+      </pre>
     </>
   );
 }

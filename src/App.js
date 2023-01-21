@@ -304,7 +304,7 @@ function App(props) {
   return (
     <>
       {mobileAndTabletCheck() ? (
-        <div className="Note error"> Not Supported</div>
+        <div className="Note error"> Not Supported, Please use desktop</div>
       ) : (
         <>
           <div className="gameCanvasParent">
